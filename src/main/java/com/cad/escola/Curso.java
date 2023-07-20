@@ -15,7 +15,6 @@ public class Curso {
 		Nome = nome;
 	}
 	
-
 	public String getSigla() {
 		return Sigla;
 	}

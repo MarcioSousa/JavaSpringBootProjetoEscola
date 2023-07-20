@@ -7,9 +7,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class EscolaApplication {
 
 	public static void main(String[] args) {
-		//SpringApplication.run(EscolaApplication.class, args);
+		SpringApplication.run(EscolaApplication.class, args);
 		
-		Curso curso1 = new Curso("AAA","Analista de Dados");
+		/*Curso curso1 = new Curso("AAA","Analista de Dados");
 		curso1.setCargaHoraria(30);
 		curso1.setValor(1.30);
 		curso1.setDataVigencia("10/02/2023");
@@ -37,7 +37,7 @@ public class EscolaApplication {
 		System.out.println(curso2.getDataVigencia());
 		System.out.println(curso2.getCargaHoraria());
 		System.out.println(curso2.getNome());
-		System.out.println(curso2.getPrograma());
+		System.out.println(curso2.getPrograma());*/
 		
 	}
 
